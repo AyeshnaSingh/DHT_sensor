@@ -1,9 +1,10 @@
-#include <DHT.h>
+//include DHT sensor and LCD libraries
+#include <DHT.h> 
 #include <LiquidCrystal.h>
 
 // DHT sensor configuration
-#define DHTPIN 2        // Pin connected to DHT sensor
-#define DHTTYPE DHT11   // Change to DHT22 if using DHT22
+#define DHTPIN 2      
+#define DHTTYPE DHT11   
 DHT dht(DHTPIN, DHTTYPE);
 
 // LCD configuration (RS, EN, D4, D5, D6, D7)
